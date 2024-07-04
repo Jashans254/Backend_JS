@@ -197,6 +197,49 @@ We get some special variables which need to be taken care of ; like sensetive in
 
      #####  ***DigitalOcean , Heroker , railway , seanode , render , cyclic***
 
+- #### Steps to follow
+    - resource :- Github 
+      - check repo , branch and source directory 
+      - Auto refresh 
+    - Edit Plan :  Basic
+    - Env Variables: 
+      - global and repo name both write ; both have difft scope
+      - | key | value|
+        | --- | ---|
+        | PORT | 3000|
+      - for system security 
+      - port is overwritten automatically; DB part will not
+
+    - Check info summary
+        - go to build logs to check live progress 
+        - check _apps_ : - url
+
+- Wtite to index.js
+
+  -   ```javascript
+      const githubData = 'https://api.github.com/users/{GithubName}'
+      ```
+  - replace your {GithubName} with your github name 
+
+- To production just push to github
+  - select build in app
+  - $Protip💡$ : cmd - console features; insights ; console ; activity
+
+- Destroy app in Actions
+
+# File structure 
+ - node_modules 
+ - .env
+ - .gitignore
+ - index.js
+ .package.json
+ .package-lock.json
+
+
+     
+
+      
+
 
 
 
