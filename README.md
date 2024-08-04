@@ -10,3 +10,8 @@ All about the backend development in Javascript using Express and Mongoose abstr
 7. ### Cutom API response and error handling :[ClickHere](./lec8/readme.md)
 8. ### User and video model with hooks and JWT :[ClickHere](./lec9/readme.md)
 9.  ### How to upload file in backend | Multer : [ClickHere](./lec10/readme.md)
+10. ### HTTP Crash Course : [ClickHere](./lec10_1/readme.md)
+11. ###  Complete guide for router and controller with debugging  : [ClickHere](./lec12/readme.md)
+12. ###  Logic Building | Register controller : [ClickHere](./lec13/readme.md)
+13. ### How to use Postman for backend : [ClickHere](./lec14/readme.md)
+14. ### Access Refresh Token , Middleware and cookies : [ClickHere](./lec15/readme.md)
